@@ -400,6 +400,8 @@ public class TownyCustomListener implements Listener {
 
 	@EventHandler
 	public void onTownLevelIncrease(TownLevelIncreaseEvent event) {
+		if (!TownyPerms.ranksWithTownLevelRequirementPresent())
+			return;
 		event.getTown().getResidents()
 		.stream()
 		.filter(Resident::isOnline)
@@ -408,6 +410,8 @@ public class TownyCustomListener implements Listener {
 	
 	@EventHandler
 	public void onTownLevelDecrease(TownLevelDecreaseEvent event) {
+		if (!TownyPerms.ranksWithTownLevelRequirementPresent())
+			return;
 		event.getTown().getResidents()
 		.stream()
 		.filter(Resident::isOnline)
@@ -416,6 +420,8 @@ public class TownyCustomListener implements Listener {
 	
 	@EventHandler
 	public void onNationLevelIncrease(NationLevelIncreaseEvent event) {
+		if (!TownyPerms.ranksWithNationLevelRequirementPresent())
+			return;
 		event.getNation().getResidents()
 		.stream()
 		.filter(Resident::isOnline)
@@ -424,6 +430,8 @@ public class TownyCustomListener implements Listener {
 	
 	@EventHandler
 	public void onNationLevelDecrease(NationLevelDecreaseEvent event) {
+		if (!TownyPerms.ranksWithNationLevelRequirementPresent())
+			return;
 		event.getNation().getResidents()
 		.stream()
 		.filter(Resident::isOnline)
