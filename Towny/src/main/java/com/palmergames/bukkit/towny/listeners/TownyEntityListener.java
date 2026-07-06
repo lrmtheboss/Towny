@@ -655,7 +655,7 @@ public class TownyEntityListener implements Listener {
 	
 	private boolean isWindCharge(EntityExplodeEvent event) {
 		return MinecraftVersion.CURRENT_VERSION.isNewerThanOrEquals(MinecraftVersion.MINECRAFT_1_21)
-				&& event.getEntity() instanceof WindCharge charge;
+				&& event.getEntity() instanceof WindCharge;
 	}
 
 	@Nullable
