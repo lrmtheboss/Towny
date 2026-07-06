@@ -10933,3 +10933,5 @@ v0.92.0.11:
 0.103.0.6:
   - Fix for players unable to log in with a new username.
     - Players who logged in with a username that was previoulsy used by another existing resident (with a different UUID,) will no longer cause issues.
+  - Add clickable [Join Town] components to open towns' status screens and list entries.
+    - Closes #8237.
