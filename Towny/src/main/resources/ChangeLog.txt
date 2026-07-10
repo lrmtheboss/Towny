@@ -10957,4 +10957,5 @@ v0.92.0.11:
   - Fix automatic renaming system able to cause safe mode.
   - Bump org.apache.logging.log4j:log4j-core from 2.26.0 to 2.26.1.
   - Bump me.clip:placeholderapi from 2.12.2 to 2.12.3.
+0.103.0.8:
   - Fix loading of override lang files.
