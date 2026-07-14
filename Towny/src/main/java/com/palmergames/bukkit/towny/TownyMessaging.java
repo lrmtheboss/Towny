@@ -653,7 +653,7 @@ public class TownyMessaging {
 	}
 
 	public static void sendNationAllTownsOutpostList(Player player, Nation nation, int page, int total) {
-		sendOutpostList(player, nation, page, total, "/towny:nation outpost ");
+		sendOutpostList(player, nation, page, total, "towny:nation outpost ");
 	}
 
 	public static void sendOutpostList(Player player, Town town, int page, int total, String clickCommand) {
