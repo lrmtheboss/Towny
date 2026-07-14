@@ -10959,3 +10959,4 @@ v0.92.0.11:
   - Bump me.clip:placeholderapi from 2.12.2 to 2.12.3.
 0.103.0.8:
   - Fix loading of override lang files.
+  - Fix errant /'s that break the nation and town outpost lists' clickable navigation.

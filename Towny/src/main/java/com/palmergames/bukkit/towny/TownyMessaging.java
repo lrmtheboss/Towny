@@ -645,11 +645,11 @@ public class TownyMessaging {
 	}
 
 	public static void sendTownOutpostList(Player player, Town town, int page, int total) {
-		sendOutpostList(player, town, page, total, "/towny:town outpost ");
+		sendOutpostList(player, town, page, total, "towny:town outpost ");
 	}
 
 	public static void sendNationOutpostList(Player player, Town town, int page, int total) {
-		sendOutpostList(player, town, page, total, "/towny:nation outpost " + town.getName() + " ");
+		sendOutpostList(player, town, page, total, "towny:nation outpost " + town.getName() + " ");
 	}
 
 	public static void sendNationAllTownsOutpostList(Player player, Nation nation, int page, int total) {
