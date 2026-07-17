@@ -10960,3 +10960,10 @@ v0.92.0.11:
 0.103.0.8:
   - Fix loading of override lang files.
   - Fix errant /'s that break the nation and town outpost lists' clickable navigation.
+  - Fix rare teleport warmup player NPE, courtesy of Warrior with PR #8247.
+  - Remove nation prefix and postfix from new nation broadcast, courtesy of Warrior with PR #8248.
+  - Fix spectators/vanished players being able to prevent pvp toggling, courtesy of Warrior with PR #8252.
+  - Bump junit.version from 6.1.1 to 6.1.2.
+  - Bump net.coreprotect:coreprotect from 23.2 to 24.0.
+0.103.1.0:
+  - Bump version for Release.
